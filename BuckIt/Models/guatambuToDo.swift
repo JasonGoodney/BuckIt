@@ -6,6 +6,14 @@
 //  Copyright © 2018 Jason Goodney. All rights reserved.
 //
 
+// *******  PLEASE READ  ***********
+
+// please ignore this file.  i use it as a note scratch pad for ideas and todo so i can stay in xcode
+
+// if you would like to delete this file, just ask guatambu, or copy and psate the contents and slack them over to guatambu in a snippet, then go ahead and delete!
+
+// GET IN THERE!!!
+
 import Foundation
 
 
