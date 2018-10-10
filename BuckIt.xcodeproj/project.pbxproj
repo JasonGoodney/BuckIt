@@ -19,6 +19,7 @@
 		FA2864A0216E8723006C9986 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28649F216E8723006C9986 /* BucketList.swift */; };
 		FA2864A2216E8749006C9986 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2864A1216E8749006C9986 /* Message.swift */; };
 		FA2864A4216E877A006C9986 /* BucketListItemComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2864A3216E877A006C9986 /* BucketListItemComment.swift */; };
+		FA2864A6216EB51A006C9986 /* guatambuToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2864A5216EB51A006C9986 /* guatambuToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FA28649F216E8723006C9986 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
 		FA2864A1216E8749006C9986 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		FA2864A3216E877A006C9986 /* BucketListItemComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListItemComment.swift; sourceTree = "<group>"; };
+		FA2864A5216EB51A006C9986 /* guatambuToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guatambuToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				FA28649D216E86EA006C9986 /* BucketListItem.swift */,
 				FA2864A1216E8749006C9986 /* Message.swift */,
 				FA2864A3216E877A006C9986 /* BucketListItemComment.swift */,
+				FA2864A5216EB51A006C9986 /* guatambuToDo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA28649E216E86EA006C9986 /* BucketListItem.swift in Sources */,
+				FA2864A6216EB51A006C9986 /* guatambuToDo.swift in Sources */,
 				D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */,
 				FA2864A4216E877A006C9986 /* BucketListItemComment.swift in Sources */,
 				FA2864A0216E8723006C9986 /* BucketList.swift in Sources */,
