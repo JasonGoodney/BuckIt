@@ -14,6 +14,11 @@
 		D7F7045B216BE33F00E8C154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F70459216BE33F00E8C154 /* LaunchScreen.storyboard */; };
 		D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7F70484216D679A00E8C154 /* GoogleService-Info.plist */; };
 		F571DB49AF152FE95FE43903 /* Pods_BuckIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BEB9F2AA7B4A25DE140AF /* Pods_BuckIt.framework */; };
+		FA28649C216E86B3006C9986 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28649B216E86B3006C9986 /* User.swift */; };
+		FA28649E216E86EA006C9986 /* BucketListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28649D216E86EA006C9986 /* BucketListItem.swift */; };
+		FA2864A0216E8723006C9986 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28649F216E8723006C9986 /* BucketList.swift */; };
+		FA2864A2216E8749006C9986 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2864A1216E8749006C9986 /* Message.swift */; };
+		FA2864A4216E877A006C9986 /* BucketListItemComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2864A3216E877A006C9986 /* BucketListItemComment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		D7F7045A216BE33F00E8C154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F7045C216BE33F00E8C154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7F70484216D679A00E8C154 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA28649B216E86B3006C9986 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA28649D216E86EA006C9986 /* BucketListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListItem.swift; sourceTree = "<group>"; };
+		FA28649F216E8723006C9986 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
+		FA2864A1216E8749006C9986 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FA2864A3216E877A006C9986 /* BucketListItemComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListItemComment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,7 @@
 		D7F7044F216BE33C00E8C154 /* BuckIt */ = {
 			isa = PBXGroup;
 			children = (
+				FA28649A216E8698006C9986 /* Models */,
 				D7F70487216D67B900E8C154 /* Sources */,
 				D7F70486216D67AA00E8C154 /* Resources */,
 			);
@@ -105,6 +116,18 @@
 				D7F70454216BE33C00E8C154 /* Main.storyboard */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		FA28649A216E8698006C9986 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA28649B216E86B3006C9986 /* User.swift */,
+				FA28649F216E8723006C9986 /* BucketList.swift */,
+				FA28649D216E86EA006C9986 /* BucketListItem.swift */,
+				FA2864A1216E8749006C9986 /* Message.swift */,
+				FA2864A3216E877A006C9986 /* BucketListItemComment.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA28649E216E86EA006C9986 /* BucketListItem.swift in Sources */,
 				D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */,
+				FA2864A4216E877A006C9986 /* BucketListItemComment.swift in Sources */,
+				FA2864A0216E8723006C9986 /* BucketList.swift in Sources */,
+				FA2864A2216E8749006C9986 /* Message.swift in Sources */,
 				D7F70451216BE33C00E8C154 /* AppDelegate.swift in Sources */,
+				FA28649C216E86B3006C9986 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
