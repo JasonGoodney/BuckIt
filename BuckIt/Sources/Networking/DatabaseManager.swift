@@ -66,12 +66,38 @@ class DatabaseManager {
                 return
             }
             
-            guard let document = documentSnapshot?.data() else {
+            guard let documentSnapshot = documentSnapshot, documentSnapshot.exists else {
                 completion(nil, error)
                 return
             }
             
+            let document = documentSnapshot.data()
+            
             completion(document, error)
+        }
+    }
+    
+    
+    /// Update a document with the given fields
+    ///
+    /// - Parameters:
+    ///   - collectionPath: String path to the collection
+    ///   - documentPath: String path to the document
+    ///   - fields: Document fields that will be updated
+    ///   - completion: Completes with true if the document is updated
+    func updateDocument(forCollectionPath collectionPath: String,
+                        documentPath: String,
+                        withFields fields: Dictionary<String, Any>,
+                        completion: @escaping (_ success: Bool) -> Void) {
+        
+        Endpoint.database.collection(collectionPath).document(documentPath).updateData(fields) { (error) in
+            if let error = error {
+                print("Error updating document at document path: \(documentPath) \(error) \(error.localizedDescription)")
+                completion(false)
+                return
+            }
+            
+            completion(true)
         }
     }
 }
