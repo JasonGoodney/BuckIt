@@ -13,6 +13,8 @@
 		D7F70458216BE33F00E8C154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F70457216BE33F00E8C154 /* Assets.xcassets */; };
 		D7F7045B216BE33F00E8C154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F70459216BE33F00E8C154 /* LaunchScreen.storyboard */; };
 		D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7F70484216D679A00E8C154 /* GoogleService-Info.plist */; };
+		D7F7048D216D7D2500E8C154 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7048C216D7D2500E8C154 /* Endpoint.swift */; };
+		D7F7048F216D811100E8C154 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7048E216D811100E8C154 /* AuthManager.swift */; };
 		F571DB49AF152FE95FE43903 /* Pods_BuckIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BEB9F2AA7B4A25DE140AF /* Pods_BuckIt.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		D7F7045A216BE33F00E8C154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F7045C216BE33F00E8C154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7F70484216D679A00E8C154 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7F7048C216D7D2500E8C154 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		D7F7048E216D811100E8C154 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,20 @@
 			isa = PBXGroup;
 			children = (
 				D7F70450216BE33C00E8C154 /* AppDelegate.swift */,
+				D7F7048B216D7CE200E8C154 /* Networking */,
 				D7F70452216BE33C00E8C154 /* ViewController.swift */,
 				D7F70454216BE33C00E8C154 /* Main.storyboard */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		D7F7048B216D7CE200E8C154 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7048C216D7D2500E8C154 /* Endpoint.swift */,
+				D7F7048E216D811100E8C154 /* AuthManager.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */,
+				D7F7048F216D811100E8C154 /* AuthManager.swift in Sources */,
+				D7F7048D216D7D2500E8C154 /* Endpoint.swift in Sources */,
 				D7F70451216BE33C00E8C154 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
