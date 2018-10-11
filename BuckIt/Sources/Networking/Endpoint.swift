@@ -62,4 +62,34 @@ struct Endpoint {
         }
     }
     
+    // Firebase storage bucket paths
+    /*
+        StorageBucket
+            images
+                uid
+                    profileImage
+                        *.jpg
+                    itemImages
+                        *.jpg
+    */
+    struct StorageBucket {
+        private static let _images = "images"
+        private static let _profileImage = "profile"
+        private static let _itemImages = "item"
+        
+        static var images: StorageReference {
+            return Endpoint.storageRef.child(_images)
+        }
+        
+        static func profileImage(forUid uid: String) -> StorageReference {
+            return images.child(uid).child(_profileImage)
+        }
+        
+        static func itemImages(forUid uid: String) -> StorageReference {
+            return images.child(uid).child(_itemImages)
+        }
+        
+        
+    }
+    
 }
