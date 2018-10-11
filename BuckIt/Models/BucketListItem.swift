@@ -17,20 +17,21 @@ class BucketListItem {
     let timestamp: Date
     var title: String
     var isComplete: Bool
-    var photoURLs: [String]
+    var mockPhoto: [UIImage]?
+    //var photoURLs: [String]
     var experienceDescription: String
     
-    var firebaseDictionary: [String: Any] {
-        return [
-            BucketListItemKey.uid: uid,
-            BucketListItemKey.user: user,
-            BucketListItemKey.timestamp: timestamp,
-            BucketListItemKey.title: title,
-            BucketListItemKey.isComplete: isComplete,
-            BucketListItemKey.photoURLs: photoURLs,
-            BucketListItemKey.experienceDescription: experienceDescription,
-        ]
-    }
+//    var firebaseDictionary: [String: Any] {
+//        return [
+//            BucketListItemKey.uid: uid,
+//            BucketListItemKey.user: user,
+//            BucketListItemKey.timestamp: timestamp,
+//            BucketListItemKey.title: title,
+//            BucketListItemKey.isComplete: isComplete,
+//            BucketListItemKey.photoURLs: photoURLs,
+//            BucketListItemKey.experienceDescription: experienceDescription,
+//        ]
+//    }
     
     // MARK: - Firebase Keys
     
@@ -57,7 +58,8 @@ class BucketListItem {
         timestamp: Date,
         title: String,
         isComplete: Bool,
-        photoURLs: [String],
+        mockPhoto: [UIImage]?,
+        //photoURLs: [String],
         experienceDescription: String
         ) {
         
@@ -66,27 +68,28 @@ class BucketListItem {
         self.timestamp = timestamp
         self.title = title
         self.isComplete = isComplete
-        self.photoURLs = photoURLs
+        self.mockPhoto = mockPhoto
+        //self.photoURLs = photoURLs
         self.experienceDescription = experienceDescription
     }
     
-    convenience init?(bucketListItemDictionary: [String : Any]) {
-        guard let uid = firebaseDictionary[BucketListItemKey.uid] as? String,
-            let user = firebaseDictionary[BucketListItemKey.user] as? User,
-            let timestamp = firebaseDictionary[BucketListItemKey.timestamp] as? Date,
-            let title = firebaseDictionary[BucketListItemKey.title] as? String,
-            let isComplete = firebaseDictionary[BucketListItemKey.isComplete] as? Bool,
-            let photoURLs = firebaseDictionary[BucketListItemKey.photoURLs] as? [String],
-            let experienceDescription = firebaseDictionary[BucketListItemKey.experienceDescription] as? String else { return nil }
-        
-        self.init(uid: uid,
-                  user: user,
-                  timestamp: timestamp,
-                  title: title,
-                  isComplete: isComplete,
-                  photoURLs: photoURLs,
-                  experienceDescription: experienceDescription)
-    }
+//    convenience init?(bucketListItemDictionary: [String : Any]) {
+//        guard let uid = firebaseDictionary[BucketListItemKey.uid] as? String,
+//            let user = firebaseDictionary[BucketListItemKey.user] as? User,
+//            let timestamp = firebaseDictionary[BucketListItemKey.timestamp] as? Date,
+//            let title = firebaseDictionary[BucketListItemKey.title] as? String,
+//            let isComplete = firebaseDictionary[BucketListItemKey.isComplete] as? Bool,
+//            let photoURLs = firebaseDictionary[BucketListItemKey.photoURLs] as? [String],
+//            let experienceDescription = firebaseDictionary[BucketListItemKey.experienceDescription] as? String else { return nil }
+//
+//        self.init(uid: uid,
+//                  user: user,
+//                  timestamp: timestamp,
+//                  title: title,
+//                  isComplete: isComplete,
+//                  photoURLs: photoURLs,
+//                  experienceDescription: experienceDescription)
+//    }
     
     
     
