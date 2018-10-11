@@ -22,6 +22,12 @@
 		FA2864A6216EB51A006C9986 /* guatambuToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2864A5216EB51A006C9986 /* guatambuToDo.swift */; };
 		FA2864A8216EB807006C9986 /* MockDataUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2864A7216EB807006C9986 /* MockDataUsers.swift */; };
 		FA2864AA216EDE1A006C9986 /* MockDataBucketListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2864A9216EDE1A006C9986 /* MockDataBucketListItems.swift */; };
+		FA2864B4216EE9E3006C9986 /* maggie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2864AE216EE9E1006C9986 /* maggie.jpg */; };
+		FA2864B5216EE9E3006C9986 /* rodrigo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2864AF216EE9E2006C9986 /* rodrigo.jpg */; };
+		FA2864B6216EE9E3006C9986 /* luisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2864B0216EE9E2006C9986 /* luisa.jpg */; };
+		FA2864B7216EE9E3006C9986 /* dylon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2864B1216EE9E2006C9986 /* dylon.jpg */; };
+		FA2864B8216EE9E3006C9986 /* sangita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2864B2216EE9E3006C9986 /* sangita.jpg */; };
+		FA2864B9216EE9E3006C9986 /* park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2864B3216EE9E3006C9986 /* park.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		FA2864A5216EB51A006C9986 /* guatambuToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guatambuToDo.swift; sourceTree = "<group>"; };
 		FA2864A7216EB807006C9986 /* MockDataUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataUsers.swift; sourceTree = "<group>"; };
 		FA2864A9216EDE1A006C9986 /* MockDataBucketListItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataBucketListItems.swift; sourceTree = "<group>"; };
+		FA2864AE216EE9E1006C9986 /* maggie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maggie.jpg; sourceTree = "<group>"; };
+		FA2864AF216EE9E2006C9986 /* rodrigo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rodrigo.jpg; sourceTree = "<group>"; };
+		FA2864B0216EE9E2006C9986 /* luisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luisa.jpg; sourceTree = "<group>"; };
+		FA2864B1216EE9E2006C9986 /* dylon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dylon.jpg; sourceTree = "<group>"; };
+		FA2864B2216EE9E3006C9986 /* sangita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sangita.jpg; sourceTree = "<group>"; };
+		FA2864B3216EE9E3006C9986 /* park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = park.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,7 @@
 		D7F70486216D67AA00E8C154 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA2864AB216EE9A3006C9986 /* Mock Data Images */,
 				D7F70457216BE33F00E8C154 /* Assets.xcassets */,
 				D7F70459216BE33F00E8C154 /* LaunchScreen.storyboard */,
 				D7F70484216D679A00E8C154 /* GoogleService-Info.plist */,
@@ -137,6 +150,35 @@
 				FA2864A9216EDE1A006C9986 /* MockDataBucketListItems.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		FA2864AB216EE9A3006C9986 /* Mock Data Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA2864AD216EE9BD006C9986 /* Bucket List Items */,
+				FA2864AC216EE9B4006C9986 /* Users */,
+			);
+			path = "Mock Data Images";
+			sourceTree = "<group>";
+		};
+		FA2864AC216EE9B4006C9986 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				FA2864B1216EE9E2006C9986 /* dylon.jpg */,
+				FA2864B0216EE9E2006C9986 /* luisa.jpg */,
+				FA2864AE216EE9E1006C9986 /* maggie.jpg */,
+				FA2864B3216EE9E3006C9986 /* park.jpg */,
+				FA2864AF216EE9E2006C9986 /* rodrigo.jpg */,
+				FA2864B2216EE9E3006C9986 /* sangita.jpg */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		FA2864AD216EE9BD006C9986 /* Bucket List Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bucket List Items";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +242,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2864B8216EE9E3006C9986 /* sangita.jpg in Resources */,
+				FA2864B9216EE9E3006C9986 /* park.jpg in Resources */,
 				D7F7045B216BE33F00E8C154 /* LaunchScreen.storyboard in Resources */,
+				FA2864B4216EE9E3006C9986 /* maggie.jpg in Resources */,
+				FA2864B5216EE9E3006C9986 /* rodrigo.jpg in Resources */,
 				D7F70458216BE33F00E8C154 /* Assets.xcassets in Resources */,
 				D7F70456216BE33C00E8C154 /* Main.storyboard in Resources */,
+				FA2864B6216EE9E3006C9986 /* luisa.jpg in Resources */,
+				FA2864B7216EE9E3006C9986 /* dylon.jpg in Resources */,
 				D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
