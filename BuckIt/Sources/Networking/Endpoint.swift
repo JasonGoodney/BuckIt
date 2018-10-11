@@ -32,4 +32,34 @@ struct Endpoint {
     static var database: Firestore {
         return Endpoint._database
     }
+    
+    // Firestore Collection endpoints
+    struct Collection {
+        private static let _users = "users"
+        private static let _items = "items"
+        private static let _messages = "messages"
+        private static let _comments = "comments"
+        private static let _categories = "categories"
+        
+        static var users: CollectionReference {
+            return Endpoint.database.collection(_users)
+        }
+        
+        static var items: CollectionReference {
+            return Endpoint.database.collection(_items)
+        }
+        
+        static var messages: CollectionReference {
+            return Endpoint.database.collection(_messages)
+        }
+        
+        static var comments: CollectionReference {
+            return Endpoint.database.collection(_comments)
+        }
+        
+        static var categories: CollectionReference {
+            return Endpoint.database.collection(_categories)
+        }
+    }
+    
 }
