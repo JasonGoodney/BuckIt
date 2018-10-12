@@ -42,49 +42,6 @@
 		D7F7048D216D7D2500E8C154 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7048C216D7D2500E8C154 /* Endpoint.swift */; };
 		D7F7048F216D811100E8C154 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7048E216D811100E8C154 /* AuthManager.swift */; };
 		F571DB49AF152FE95FE43903 /* Pods_BuckIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BEB9F2AA7B4A25DE140AF /* Pods_BuckIt.framework */; };
-		FA2F2E052170510600E64C30 /* guatambuToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2DFD2170510500E64C30 /* guatambuToDo.swift */; };
-		FA2F2E062170510600E64C30 /* BucketListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2DFE2170510500E64C30 /* BucketListItem.swift */; };
-		FA2F2E072170510600E64C30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2DFF2170510500E64C30 /* User.swift */; };
-		FA2F2E082170510600E64C30 /* MockDataUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E002170510500E64C30 /* MockDataUsers.swift */; };
-		FA2F2E092170510600E64C30 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E012170510600E64C30 /* BucketList.swift */; };
-		FA2F2E0A2170510600E64C30 /* MockDataBucketListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E022170510600E64C30 /* MockDataBucketListItems.swift */; };
-		FA2F2E0B2170510600E64C30 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E032170510600E64C30 /* Message.swift */; };
-		FA2F2E0C2170510600E64C30 /* BucketListItemComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E042170510600E64C30 /* BucketListItemComment.swift */; };
-		FA2F2E142170513700E64C30 /* park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E0E2170513500E64C30 /* park.jpg */; };
-		FA2F2E152170513700E64C30 /* luisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E0F2170513600E64C30 /* luisa.jpg */; };
-		FA2F2E162170513700E64C30 /* maggie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E102170513600E64C30 /* maggie.jpg */; };
-		FA2F2E172170513700E64C30 /* sangita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E112170513600E64C30 /* sangita.jpg */; };
-		FA2F2E182170513700E64C30 /* dylon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E122170513700E64C30 /* dylon.jpg */; };
-		FA2F2E192170513700E64C30 /* rodrigo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E132170513700E64C30 /* rodrigo.jpg */; };
-		FA2F2E342170516D00E64C30 /* dalai_lama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E1B2170516500E64C30 /* dalai_lama.jpg */; };
-		FA2F2E352170516D00E64C30 /* message_bottle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E1C2170516600E64C30 /* message_bottle.jpg */; };
-		FA2F2E362170516D00E64C30 /* make_perfume.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E1D2170516600E64C30 /* make_perfume.jpg */; };
-		FA2F2E372170516D00E64C30 /* see_indycar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E1E2170516600E64C30 /* see_indycar.jpg */; };
-		FA2F2E382170516D00E64C30 /* kids_book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E1F2170516700E64C30 /* kids_book.jpg */; };
-		FA2F2E392170516D00E64C30 /* feed_homeless.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E202170516700E64C30 /* feed_homeless.jpg */; };
-		FA2F2E3A2170516D00E64C30 /* meet_leader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E212170516700E64C30 /* meet_leader.jpg */; };
-		FA2F2E3B2170516D00E64C30 /* ted_talk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E222170516700E64C30 /* ted_talk.jpg */; };
-		FA2F2E3C2170516D00E64C30 /* fire_eat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E232170516800E64C30 /* fire_eat.jpg */; };
-		FA2F2E3D2170516D00E64C30 /* charter_yacht.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E242170516800E64C30 /* charter_yacht.jpg */; };
-		FA2F2E3E2170516D00E64C30 /* snowboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E252170516900E64C30 /* snowboard.jpg */; };
-		FA2F2E3F2170516D00E64C30 /* trapeze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E262170516900E64C30 /* trapeze.jpg */; };
-		FA2F2E402170516D00E64C30 /* molecular_gastronomy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E272170516900E64C30 /* molecular_gastronomy.jpg */; };
-		FA2F2E412170516D00E64C30 /* hang_glide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E282170516900E64C30 /* hang_glide.jpg */; };
-		FA2F2E422170516D00E64C30 /* palm_read.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E292170516A00E64C30 /* palm_read.jpg */; };
-		FA2F2E432170516D00E64C30 /* see_eclipse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E2A2170516A00E64C30 /* see_eclipse.jpg */; };
-		FA2F2E442170516D00E64C30 /* food_cart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E2B2170516A00E64C30 /* food_cart.jpg */; };
-		FA2F2E452170516D00E64C30 /* improv_class.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E2C2170516B00E64C30 /* improv_class.jpg */; };
-		FA2F2E462170516D00E64C30 /* sleep_yurt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E2D2170516B00E64C30 /* sleep_yurt.jpg */; };
-		FA2F2E472170516D00E64C30 /* nude_beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E2E2170516B00E64C30 /* nude_beach.jpg */; };
-		FA2F2E482170516D00E64C30 /* polar_plunge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E2F2170516C00E64C30 /* polar_plunge.jpg */; };
-		FA2F2E492170516D00E64C30 /* color_run.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E302170516C00E64C30 /* color_run.jpg */; };
-		FA2F2E4A2170516D00E64C30 /* opera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E312170516C00E64C30 /* opera.jpg */; };
-		FA2F2E4B2170516D00E64C30 /* seaplane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E322170516D00E64C30 /* seaplane.jpg */; };
-		FA2F2E4C2170516D00E64C30 /* milk_cow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E332170516D00E64C30 /* milk_cow.jpg */; };
-		FA2F2E542171427700E64C30 /* UserAuthentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E532171427700E64C30 /* UserAuthentication.storyboard */; };
-		FA2F2E562171429F00E64C30 /* IBDesignables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E552171429F00E64C30 /* IBDesignables.swift */; };
-		FA2F2E58217142B800E64C30 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E57217142B800E64C30 /* UserLoginViewController.swift */; };
-		FA2F2E5A217142CD00E64C30 /* UserCreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E59217142CD00E64C30 /* UserCreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,49 +84,6 @@
 		D7F70484216D679A00E8C154 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D7F7048C216D7D2500E8C154 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		D7F7048E216D811100E8C154 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
-		FA2F2DFD2170510500E64C30 /* guatambuToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = guatambuToDo.swift; sourceTree = "<group>"; };
-		FA2F2DFE2170510500E64C30 /* BucketListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListItem.swift; sourceTree = "<group>"; };
-		FA2F2DFF2170510500E64C30 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		FA2F2E002170510500E64C30 /* MockDataUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDataUsers.swift; sourceTree = "<group>"; };
-		FA2F2E012170510600E64C30 /* BucketList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
-		FA2F2E022170510600E64C30 /* MockDataBucketListItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDataBucketListItems.swift; sourceTree = "<group>"; };
-		FA2F2E032170510600E64C30 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		FA2F2E042170510600E64C30 /* BucketListItemComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListItemComment.swift; sourceTree = "<group>"; };
-		FA2F2E0E2170513500E64C30 /* park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = park.jpg; sourceTree = "<group>"; };
-		FA2F2E0F2170513600E64C30 /* luisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luisa.jpg; sourceTree = "<group>"; };
-		FA2F2E102170513600E64C30 /* maggie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maggie.jpg; sourceTree = "<group>"; };
-		FA2F2E112170513600E64C30 /* sangita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sangita.jpg; sourceTree = "<group>"; };
-		FA2F2E122170513700E64C30 /* dylon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dylon.jpg; sourceTree = "<group>"; };
-		FA2F2E132170513700E64C30 /* rodrigo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rodrigo.jpg; sourceTree = "<group>"; };
-		FA2F2E1B2170516500E64C30 /* dalai_lama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dalai_lama.jpg; sourceTree = "<group>"; };
-		FA2F2E1C2170516600E64C30 /* message_bottle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = message_bottle.jpg; sourceTree = "<group>"; };
-		FA2F2E1D2170516600E64C30 /* make_perfume.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = make_perfume.jpg; sourceTree = "<group>"; };
-		FA2F2E1E2170516600E64C30 /* see_indycar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = see_indycar.jpg; sourceTree = "<group>"; };
-		FA2F2E1F2170516700E64C30 /* kids_book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kids_book.jpg; sourceTree = "<group>"; };
-		FA2F2E202170516700E64C30 /* feed_homeless.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feed_homeless.jpg; sourceTree = "<group>"; };
-		FA2F2E212170516700E64C30 /* meet_leader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meet_leader.jpg; sourceTree = "<group>"; };
-		FA2F2E222170516700E64C30 /* ted_talk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ted_talk.jpg; sourceTree = "<group>"; };
-		FA2F2E232170516800E64C30 /* fire_eat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fire_eat.jpg; sourceTree = "<group>"; };
-		FA2F2E242170516800E64C30 /* charter_yacht.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charter_yacht.jpg; sourceTree = "<group>"; };
-		FA2F2E252170516900E64C30 /* snowboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snowboard.jpg; sourceTree = "<group>"; };
-		FA2F2E262170516900E64C30 /* trapeze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trapeze.jpg; sourceTree = "<group>"; };
-		FA2F2E272170516900E64C30 /* molecular_gastronomy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = molecular_gastronomy.jpg; sourceTree = "<group>"; };
-		FA2F2E282170516900E64C30 /* hang_glide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hang_glide.jpg; sourceTree = "<group>"; };
-		FA2F2E292170516A00E64C30 /* palm_read.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palm_read.jpg; sourceTree = "<group>"; };
-		FA2F2E2A2170516A00E64C30 /* see_eclipse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = see_eclipse.jpg; sourceTree = "<group>"; };
-		FA2F2E2B2170516A00E64C30 /* food_cart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food_cart.jpg; sourceTree = "<group>"; };
-		FA2F2E2C2170516B00E64C30 /* improv_class.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = improv_class.jpg; sourceTree = "<group>"; };
-		FA2F2E2D2170516B00E64C30 /* sleep_yurt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sleep_yurt.jpg; sourceTree = "<group>"; };
-		FA2F2E2E2170516B00E64C30 /* nude_beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nude_beach.jpg; sourceTree = "<group>"; };
-		FA2F2E2F2170516C00E64C30 /* polar_plunge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = polar_plunge.jpg; sourceTree = "<group>"; };
-		FA2F2E302170516C00E64C30 /* color_run.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = color_run.jpg; sourceTree = "<group>"; };
-		FA2F2E312170516C00E64C30 /* opera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = opera.jpg; sourceTree = "<group>"; };
-		FA2F2E322170516D00E64C30 /* seaplane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seaplane.jpg; sourceTree = "<group>"; };
-		FA2F2E332170516D00E64C30 /* milk_cow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = milk_cow.jpg; sourceTree = "<group>"; };
-		FA2F2E532171427700E64C30 /* UserAuthentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserAuthentication.storyboard; sourceTree = "<group>"; };
-		FA2F2E552171429F00E64C30 /* IBDesignables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignables.swift; sourceTree = "<group>"; };
-		FA2F2E57217142B800E64C30 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
-		FA2F2E59217142CD00E64C30 /* UserCreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,7 +255,6 @@
 		D7F7044F216BE33C00E8C154 /* BuckIt */ = {
 			isa = PBXGroup;
 			children = (
-				FA2F2DFB217050B200E64C30 /* Model Files */,
 				38095B05216D9CED004F5728 /* MyListTab */,
 				3814B8C7216F118B00F3F85F /* InspirationTab */,
 				38D7FB53216FF5CE009EF877 /* ConnectTab */,
@@ -354,7 +267,6 @@
 		D7F70486216D67AA00E8C154 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FA2F2DFC217050D700E64C30 /* Mock Data Files */,
 				D7F70457216BE33F00E8C154 /* Assets.xcassets */,
 				D7F70459216BE33F00E8C154 /* LaunchScreen.storyboard */,
 				D7F70484216D679A00E8C154 /* GoogleService-Info.plist */,
@@ -368,10 +280,6 @@
 			children = (
 				D7F70450216BE33C00E8C154 /* AppDelegate.swift */,
 				D7F7048B216D7CE200E8C154 /* Networking */,
-				FA2F2E532171427700E64C30 /* UserAuthentication.storyboard */,
-				FA2F2E552171429F00E64C30 /* IBDesignables.swift */,
-				FA2F2E57217142B800E64C30 /* UserLoginViewController.swift */,
-				FA2F2E59217142CD00E64C30 /* UserCreateAccountViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -385,76 +293,6 @@
 				D7A76490216EA0FC00683B46 /* StorageManager.swift */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		FA2F2DFB217050B200E64C30 /* Model Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA2F2E012170510600E64C30 /* BucketList.swift */,
-				FA2F2DFE2170510500E64C30 /* BucketListItem.swift */,
-				FA2F2E042170510600E64C30 /* BucketListItemComment.swift */,
-				FA2F2DFF2170510500E64C30 /* User.swift */,
-				FA2F2E032170510600E64C30 /* Message.swift */,
-				FA2F2DFD2170510500E64C30 /* guatambuToDo.swift */,
-				FA2F2E022170510600E64C30 /* MockDataBucketListItems.swift */,
-				FA2F2E002170510500E64C30 /* MockDataUsers.swift */,
-			);
-			name = "Model Files";
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		FA2F2DFC217050D700E64C30 /* Mock Data Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA2F2E1A2170514400E64C30 /* Bucket List Items Images */,
-				FA2F2E0D2170511A00E64C30 /* Users Images */,
-			);
-			path = "Mock Data Files";
-			sourceTree = "<group>";
-		};
-		FA2F2E0D2170511A00E64C30 /* Users Images */ = {
-			isa = PBXGroup;
-			children = (
-				FA2F2E122170513700E64C30 /* dylon.jpg */,
-				FA2F2E0F2170513600E64C30 /* luisa.jpg */,
-				FA2F2E102170513600E64C30 /* maggie.jpg */,
-				FA2F2E0E2170513500E64C30 /* park.jpg */,
-				FA2F2E132170513700E64C30 /* rodrigo.jpg */,
-				FA2F2E112170513600E64C30 /* sangita.jpg */,
-			);
-			path = "Users Images";
-			sourceTree = "<group>";
-		};
-		FA2F2E1A2170514400E64C30 /* Bucket List Items Images */ = {
-			isa = PBXGroup;
-			children = (
-				FA2F2E242170516800E64C30 /* charter_yacht.jpg */,
-				FA2F2E302170516C00E64C30 /* color_run.jpg */,
-				FA2F2E1B2170516500E64C30 /* dalai_lama.jpg */,
-				FA2F2E202170516700E64C30 /* feed_homeless.jpg */,
-				FA2F2E232170516800E64C30 /* fire_eat.jpg */,
-				FA2F2E2B2170516A00E64C30 /* food_cart.jpg */,
-				FA2F2E282170516900E64C30 /* hang_glide.jpg */,
-				FA2F2E2C2170516B00E64C30 /* improv_class.jpg */,
-				FA2F2E1F2170516700E64C30 /* kids_book.jpg */,
-				FA2F2E1D2170516600E64C30 /* make_perfume.jpg */,
-				FA2F2E212170516700E64C30 /* meet_leader.jpg */,
-				FA2F2E1C2170516600E64C30 /* message_bottle.jpg */,
-				FA2F2E332170516D00E64C30 /* milk_cow.jpg */,
-				FA2F2E272170516900E64C30 /* molecular_gastronomy.jpg */,
-				FA2F2E2E2170516B00E64C30 /* nude_beach.jpg */,
-				FA2F2E312170516C00E64C30 /* opera.jpg */,
-				FA2F2E292170516A00E64C30 /* palm_read.jpg */,
-				FA2F2E2F2170516C00E64C30 /* polar_plunge.jpg */,
-				FA2F2E322170516D00E64C30 /* seaplane.jpg */,
-				FA2F2E2A2170516A00E64C30 /* see_eclipse.jpg */,
-				FA2F2E1E2170516600E64C30 /* see_indycar.jpg */,
-				FA2F2E2D2170516B00E64C30 /* sleep_yurt.jpg */,
-				FA2F2E252170516900E64C30 /* snowboard.jpg */,
-				FA2F2E222170516700E64C30 /* ted_talk.jpg */,
-				FA2F2E262170516900E64C30 /* trapeze.jpg */,
-			);
-			path = "Bucket List Items Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -519,54 +357,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F7045B216BE33F00E8C154 /* LaunchScreen.storyboard in Resources */,
-				FA2F2E422170516D00E64C30 /* palm_read.jpg in Resources */,
-				FA2F2E3D2170516D00E64C30 /* charter_yacht.jpg in Resources */,
-				FA2F2E472170516D00E64C30 /* nude_beach.jpg in Resources */,
-				FA2F2E172170513700E64C30 /* sangita.jpg in Resources */,
-				FA2F2E162170513700E64C30 /* maggie.jpg in Resources */,
-				FA2F2E392170516D00E64C30 /* feed_homeless.jpg in Resources */,
-				FA2F2E142170513700E64C30 /* park.jpg in Resources */,
-				FA2F2E362170516D00E64C30 /* make_perfume.jpg in Resources */,
-				FA2F2E342170516D00E64C30 /* dalai_lama.jpg in Resources */,
-				FA2F2E452170516D00E64C30 /* improv_class.jpg in Resources */,
-				FA2F2E482170516D00E64C30 /* polar_plunge.jpg in Resources */,
-				FA2F2E442170516D00E64C30 /* food_cart.jpg in Resources */,
-				FA2F2E432170516D00E64C30 /* see_eclipse.jpg in Resources */,
 				D7F70458216BE33F00E8C154 /* Assets.xcassets in Resources */,
-				FA2F2E492170516D00E64C30 /* color_run.jpg in Resources */,
-				FA2F2E382170516D00E64C30 /* kids_book.jpg in Resources */,
-<<<<<<< HEAD
-=======
 				38095B09216DA20A004F5728 /* MyListNewItem.storyboard in Resources */,
 				3814B8C6216F0B1900F3F85F /* MyListSettings.storyboard in Resources */,
 				38095B0B216DA235004F5728 /* MyListDetailItem.storyboard in Resources */,
 				38095B07216DA077004F5728 /* MyList.storyboard in Resources */,
 				38D7FB4C216FE8D7009EF877 /* InspirationItemDetail.storyboard in Resources */,
 				3814B8CD216F130900F3F85F /* InspirationHome.storyboard in Resources */,
-				D7F70456216BE33C00E8C154 /* Main.storyboard in Resources */,
->>>>>>> e358000f95cfb5719851f679d53c7ef82b76554f
-				FA2F2E4B2170516D00E64C30 /* seaplane.jpg in Resources */,
-				FA2F2E402170516D00E64C30 /* molecular_gastronomy.jpg in Resources */,
-				FA2F2E3F2170516D00E64C30 /* trapeze.jpg in Resources */,
-				FA2F2E372170516D00E64C30 /* see_indycar.jpg in Resources */,
-				FA2F2E3B2170516D00E64C30 /* ted_talk.jpg in Resources */,
-				FA2F2E192170513700E64C30 /* rodrigo.jpg in Resources */,
-				FA2F2E152170513700E64C30 /* luisa.jpg in Resources */,
-				FA2F2E3A2170516D00E64C30 /* meet_leader.jpg in Resources */,
-				FA2F2E542171427700E64C30 /* UserAuthentication.storyboard in Resources */,
-				FA2F2E182170513700E64C30 /* dylon.jpg in Resources */,
 				382B97A521704174005A85CD /* MessageCompose.storyboard in Resources */,
 				38D7FB52216FF283009EF877 /* InspirationOtherUser.storyboard in Resources */,
 				382B97A721704187005A85CD /* MessageSearchandCompose.storyboard in Resources */,
 				38D7FB59216FF917009EF877 /* MessageList.storyboard in Resources */,
 				D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */,
-				FA2F2E352170516D00E64C30 /* message_bottle.jpg in Resources */,
-				FA2F2E462170516D00E64C30 /* sleep_yurt.jpg in Resources */,
-				FA2F2E3C2170516D00E64C30 /* fire_eat.jpg in Resources */,
-				FA2F2E3E2170516D00E64C30 /* snowboard.jpg in Resources */,
-				FA2F2E4C2170516D00E64C30 /* milk_cow.jpg in Resources */,
-				FA2F2E4A2170516D00E64C30 /* opera.jpg in Resources */,
-				FA2F2E412170516D00E64C30 /* hang_glide.jpg in Resources */,
 				382B979B21703F72005A85CD /* InspirationSearch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,34 +439,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2F2E0A2170510600E64C30 /* MockDataBucketListItems.swift in Sources */,
-				FA2F2E062170510600E64C30 /* BucketListItem.swift in Sources */,
-				FA2F2E0C2170510600E64C30 /* BucketListItemComment.swift in Sources */,
 				D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */,
-				FA2F2E082170510600E64C30 /* MockDataUsers.swift in Sources */,
 				D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */,
-<<<<<<< HEAD
-				FA2F2E58217142B800E64C30 /* UserLoginViewController.swift in Sources */,
-				FA2F2E562171429F00E64C30 /* IBDesignables.swift in Sources */,
-=======
 				38095B15216DE8F3004F5728 /* MyListDetailItemViewController.swift in Sources */,
 				382B97A12170410D005A85CD /* MessageComposeViewController.swift in Sources */,
 				382B979D217040DC005A85CD /* MessageListViewController.swift in Sources */,
 				38095B13216DE8D8004F5728 /* MyListNewItemViewController.swift in Sources */,
 				3814B8D3216F723100F3F85F /* InspirationLayout.swift in Sources */,
 				382B97A9217047EA005A85CD /* InspirationHomeViewController.swift in Sources */,
-				D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */,
->>>>>>> e358000f95cfb5719851f679d53c7ef82b76554f
 				D7F7048F216D811100E8C154 /* AuthManager.swift in Sources */,
-				FA2F2E072170510600E64C30 /* User.swift in Sources */,
 				D7F7048D216D7D2500E8C154 /* Endpoint.swift in Sources */,
-				FA2F2E0B2170510600E64C30 /* Message.swift in Sources */,
-				FA2F2E052170510600E64C30 /* guatambuToDo.swift in Sources */,
-				FA2F2E092170510600E64C30 /* BucketList.swift in Sources */,
 				D7F70451216BE33C00E8C154 /* AppDelegate.swift in Sources */,
-<<<<<<< HEAD
-				FA2F2E5A217142CD00E64C30 /* UserCreateAccountViewController.swift in Sources */,
-=======
 				382B979921703F50005A85CD /* InspirationSearchViewController.swift in Sources */,
 				3814B8D5216F724C00F3F85F /* InspirationCollectionViewCell.swift in Sources */,
 				38D7FB50216FEA59009EF877 /* InspirationOtherUserViewController.swift in Sources */,
@@ -674,7 +459,6 @@
 				3814B8D8216F79D300F3F85F /* Photo.swift in Sources */,
 				3814B8C4216F0A8700F3F85F /* MyListSettingsViewController.swift in Sources */,
 				38095B0F216DDF2D004F5728 /* MyListPhotoPickerViewController.swift in Sources */,
->>>>>>> e358000f95cfb5719851f679d53c7ef82b76554f
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
