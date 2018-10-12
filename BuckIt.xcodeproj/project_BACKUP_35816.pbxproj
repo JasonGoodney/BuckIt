@@ -337,10 +337,13 @@
 		D7F7044F216BE33C00E8C154 /* BuckIt */ = {
 			isa = PBXGroup;
 			children = (
-				FA2F2DFB217050B200E64C30 /* Model Files */,
+<<<<<<< HEAD
 				38095B05216D9CED004F5728 /* MyListTab */,
 				3814B8C7216F118B00F3F85F /* InspirationTab */,
 				38D7FB53216FF5CE009EF877 /* ConnectTab */,
+=======
+				FA2F2DFB217050B200E64C30 /* Model Files */,
+>>>>>>> guatambu
 				D7F70487216D67B900E8C154 /* Sources */,
 				D7F70486216D67AA00E8C154 /* Resources */,
 			);
@@ -527,14 +530,23 @@
 				FA2F2E442170516D00E64C30 /* food_cart.jpg in Resources */,
 				FA2F2E432170516D00E64C30 /* see_eclipse.jpg in Resources */,
 				D7F70458216BE33F00E8C154 /* Assets.xcassets in Resources */,
-				FA2F2E492170516D00E64C30 /* color_run.jpg in Resources */,
-				FA2F2E382170516D00E64C30 /* kids_book.jpg in Resources */,
+<<<<<<< HEAD
 				38095B09216DA20A004F5728 /* MyListNewItem.storyboard in Resources */,
 				3814B8C6216F0B1900F3F85F /* MyListSettings.storyboard in Resources */,
 				38095B0B216DA235004F5728 /* MyListDetailItem.storyboard in Resources */,
 				38095B07216DA077004F5728 /* MyList.storyboard in Resources */,
 				38D7FB4C216FE8D7009EF877 /* InspirationItemDetail.storyboard in Resources */,
 				3814B8CD216F130900F3F85F /* InspirationHome.storyboard in Resources */,
+				D7F70456216BE33C00E8C154 /* Main.storyboard in Resources */,
+				382B97A521704174005A85CD /* MessageCompose.storyboard in Resources */,
+				38D7FB52216FF283009EF877 /* InspirationOtherUser.storyboard in Resources */,
+				382B97A721704187005A85CD /* MessageSearchUser.storyboard in Resources */,
+				38D7FB59216FF917009EF877 /* MessageList.storyboard in Resources */,
+				D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */,
+				382B979B21703F72005A85CD /* InspirationSearch.storyboard in Resources */,
+=======
+				FA2F2E492170516D00E64C30 /* color_run.jpg in Resources */,
+				FA2F2E382170516D00E64C30 /* kids_book.jpg in Resources */,
 				D7F70456216BE33C00E8C154 /* Main.storyboard in Resources */,
 				FA2F2E4B2170516D00E64C30 /* seaplane.jpg in Resources */,
 				FA2F2E402170516D00E64C30 /* molecular_gastronomy.jpg in Resources */,
@@ -545,10 +557,6 @@
 				FA2F2E152170513700E64C30 /* luisa.jpg in Resources */,
 				FA2F2E3A2170516D00E64C30 /* meet_leader.jpg in Resources */,
 				FA2F2E182170513700E64C30 /* dylon.jpg in Resources */,
-				382B97A521704174005A85CD /* MessageCompose.storyboard in Resources */,
-				38D7FB52216FF283009EF877 /* InspirationOtherUser.storyboard in Resources */,
-				382B97A721704187005A85CD /* MessageSearchUser.storyboard in Resources */,
-				38D7FB59216FF917009EF877 /* MessageList.storyboard in Resources */,
 				D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */,
 				FA2F2E352170516D00E64C30 /* message_bottle.jpg in Resources */,
 				FA2F2E462170516D00E64C30 /* sleep_yurt.jpg in Resources */,
@@ -557,7 +565,7 @@
 				FA2F2E4C2170516D00E64C30 /* milk_cow.jpg in Resources */,
 				FA2F2E4A2170516D00E64C30 /* opera.jpg in Resources */,
 				FA2F2E412170516D00E64C30 /* hang_glide.jpg in Resources */,
-				382B979B21703F72005A85CD /* InspirationSearch.storyboard in Resources */,
+>>>>>>> guatambu
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
