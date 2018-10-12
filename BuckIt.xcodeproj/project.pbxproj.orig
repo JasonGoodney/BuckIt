@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A7648E216E64CB00683B46 /* DatabaseManager.swift */; };
-		D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A76490216EA0FC00683B46 /* StorageManager.swift */; };
+<<<<<<< HEAD
 		38095B07216DA077004F5728 /* MyList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38095B06216DA077004F5728 /* MyList.storyboard */; };
 		38095B09216DA20A004F5728 /* MyListNewItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38095B08216DA20A004F5728 /* MyListNewItem.storyboard */; };
 		38095B0B216DA235004F5728 /* MyListDetailItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38095B0A216DA235004F5728 /* MyListDetailItem.storyboard */; };
@@ -35,6 +34,10 @@
 		38D7FB50216FEA59009EF877 /* InspirationOtherUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D7FB4F216FEA59009EF877 /* InspirationOtherUserViewController.swift */; };
 		38D7FB52216FF283009EF877 /* InspirationOtherUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D7FB51216FF283009EF877 /* InspirationOtherUser.storyboard */; };
 		38D7FB59216FF917009EF877 /* MessageList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D7FB58216FF917009EF877 /* MessageList.storyboard */; };
+=======
+		D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A7648E216E64CB00683B46 /* DatabaseManager.swift */; };
+		D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A76490216EA0FC00683B46 /* StorageManager.swift */; };
+>>>>>>> 841bcc7148ffe531dc3660aeb8da4e119c77df7f
 		D7F70451216BE33C00E8C154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F70450216BE33C00E8C154 /* AppDelegate.swift */; };
 		D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F70452216BE33C00E8C154 /* ViewController.swift */; };
 		D7F70456216BE33C00E8C154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F70454216BE33C00E8C154 /* Main.storyboard */; };
@@ -446,14 +449,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */,
-				D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */,
+<<<<<<< HEAD
 				38095B15216DE8F3004F5728 /* MyListDetailItemViewController.swift in Sources */,
 				382B97A12170410D005A85CD /* MessageComposeViewController.swift in Sources */,
 				382B979D217040DC005A85CD /* MessageListViewController.swift in Sources */,
 				38095B13216DE8D8004F5728 /* MyListNewItemViewController.swift in Sources */,
 				3814B8D3216F723100F3F85F /* InspirationLayout.swift in Sources */,
 				382B97A9217047EA005A85CD /* InspirationHomeViewController.swift in Sources */,
+=======
+				D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */,
+				D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */,
+>>>>>>> 841bcc7148ffe531dc3660aeb8da4e119c77df7f
 				D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */,
 				D7F7048F216D811100E8C154 /* AuthManager.swift in Sources */,
 				D7F7048D216D7D2500E8C154 /* Endpoint.swift in Sources */,
