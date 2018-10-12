@@ -10,8 +10,6 @@
 		D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A7648E216E64CB00683B46 /* DatabaseManager.swift */; };
 		D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A76490216EA0FC00683B46 /* StorageManager.swift */; };
 		D7F70451216BE33C00E8C154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F70450216BE33C00E8C154 /* AppDelegate.swift */; };
-		D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F70452216BE33C00E8C154 /* ViewController.swift */; };
-		D7F70456216BE33C00E8C154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F70454216BE33C00E8C154 /* Main.storyboard */; };
 		D7F70458216BE33F00E8C154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F70457216BE33F00E8C154 /* Assets.xcassets */; };
 		D7F7045B216BE33F00E8C154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F70459216BE33F00E8C154 /* LaunchScreen.storyboard */; };
 		D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7F70484216D679A00E8C154 /* GoogleService-Info.plist */; };
@@ -57,6 +55,10 @@
 		FA2F2E4A2170516D00E64C30 /* opera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E312170516C00E64C30 /* opera.jpg */; };
 		FA2F2E4B2170516D00E64C30 /* seaplane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E322170516D00E64C30 /* seaplane.jpg */; };
 		FA2F2E4C2170516D00E64C30 /* milk_cow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E332170516D00E64C30 /* milk_cow.jpg */; };
+		FA2F2E542171427700E64C30 /* UserAuthentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E532171427700E64C30 /* UserAuthentication.storyboard */; };
+		FA2F2E562171429F00E64C30 /* IBDesignables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E552171429F00E64C30 /* IBDesignables.swift */; };
+		FA2F2E58217142B800E64C30 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E57217142B800E64C30 /* UserLoginViewController.swift */; };
+		FA2F2E5A217142CD00E64C30 /* UserCreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E59217142CD00E64C30 /* UserCreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,8 +69,6 @@
 		D7A76490216EA0FC00683B46 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		D7F7044D216BE33C00E8C154 /* BuckIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F70450216BE33C00E8C154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7F70452216BE33C00E8C154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7F70455216BE33C00E8C154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7F70457216BE33F00E8C154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F7045A216BE33F00E8C154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F7045C216BE33F00E8C154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,6 +114,10 @@
 		FA2F2E312170516C00E64C30 /* opera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = opera.jpg; sourceTree = "<group>"; };
 		FA2F2E322170516D00E64C30 /* seaplane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seaplane.jpg; sourceTree = "<group>"; };
 		FA2F2E332170516D00E64C30 /* milk_cow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = milk_cow.jpg; sourceTree = "<group>"; };
+		FA2F2E532171427700E64C30 /* UserAuthentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserAuthentication.storyboard; sourceTree = "<group>"; };
+		FA2F2E552171429F00E64C30 /* IBDesignables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignables.swift; sourceTree = "<group>"; };
+		FA2F2E57217142B800E64C30 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		FA2F2E59217142CD00E64C30 /* UserCreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,8 +194,10 @@
 			children = (
 				D7F70450216BE33C00E8C154 /* AppDelegate.swift */,
 				D7F7048B216D7CE200E8C154 /* Networking */,
-				D7F70452216BE33C00E8C154 /* ViewController.swift */,
-				D7F70454216BE33C00E8C154 /* Main.storyboard */,
+				FA2F2E532171427700E64C30 /* UserAuthentication.storyboard */,
+				FA2F2E552171429F00E64C30 /* IBDesignables.swift */,
+				FA2F2E57217142B800E64C30 /* UserLoginViewController.swift */,
+				FA2F2E59217142CD00E64C30 /* UserCreateAccountViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -213,11 +219,11 @@
 				FA2F2E012170510600E64C30 /* BucketList.swift */,
 				FA2F2DFE2170510500E64C30 /* BucketListItem.swift */,
 				FA2F2E042170510600E64C30 /* BucketListItemComment.swift */,
-				FA2F2DFD2170510500E64C30 /* guatambuToDo.swift */,
+				FA2F2DFF2170510500E64C30 /* User.swift */,
 				FA2F2E032170510600E64C30 /* Message.swift */,
+				FA2F2DFD2170510500E64C30 /* guatambuToDo.swift */,
 				FA2F2E022170510600E64C30 /* MockDataBucketListItems.swift */,
 				FA2F2E002170510500E64C30 /* MockDataUsers.swift */,
-				FA2F2DFF2170510500E64C30 /* User.swift */,
 			);
 			name = "Model Files";
 			path = "New Group";
@@ -355,7 +361,6 @@
 				D7F70458216BE33F00E8C154 /* Assets.xcassets in Resources */,
 				FA2F2E492170516D00E64C30 /* color_run.jpg in Resources */,
 				FA2F2E382170516D00E64C30 /* kids_book.jpg in Resources */,
-				D7F70456216BE33C00E8C154 /* Main.storyboard in Resources */,
 				FA2F2E4B2170516D00E64C30 /* seaplane.jpg in Resources */,
 				FA2F2E402170516D00E64C30 /* molecular_gastronomy.jpg in Resources */,
 				FA2F2E3F2170516D00E64C30 /* trapeze.jpg in Resources */,
@@ -364,6 +369,7 @@
 				FA2F2E192170513700E64C30 /* rodrigo.jpg in Resources */,
 				FA2F2E152170513700E64C30 /* luisa.jpg in Resources */,
 				FA2F2E3A2170516D00E64C30 /* meet_leader.jpg in Resources */,
+				FA2F2E542171427700E64C30 /* UserAuthentication.storyboard in Resources */,
 				FA2F2E182170513700E64C30 /* dylon.jpg in Resources */,
 				D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */,
 				FA2F2E352170516D00E64C30 /* message_bottle.jpg in Resources */,
@@ -448,7 +454,8 @@
 				D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */,
 				FA2F2E082170510600E64C30 /* MockDataUsers.swift in Sources */,
 				D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */,
-				D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */,
+				FA2F2E58217142B800E64C30 /* UserLoginViewController.swift in Sources */,
+				FA2F2E562171429F00E64C30 /* IBDesignables.swift in Sources */,
 				D7F7048F216D811100E8C154 /* AuthManager.swift in Sources */,
 				FA2F2E072170510600E64C30 /* User.swift in Sources */,
 				D7F7048D216D7D2500E8C154 /* Endpoint.swift in Sources */,
@@ -456,20 +463,13 @@
 				FA2F2E052170510600E64C30 /* guatambuToDo.swift in Sources */,
 				FA2F2E092170510600E64C30 /* BucketList.swift in Sources */,
 				D7F70451216BE33C00E8C154 /* AppDelegate.swift in Sources */,
+				FA2F2E5A217142CD00E64C30 /* UserCreateAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7F70454216BE33C00E8C154 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7F70455216BE33C00E8C154 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7F70459216BE33F00E8C154 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
