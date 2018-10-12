@@ -9,33 +9,9 @@
 /* Begin PBXBuildFile section */
 		D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A7648E216E64CB00683B46 /* DatabaseManager.swift */; };
 		D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A76490216EA0FC00683B46 /* StorageManager.swift */; };
-		38095B07216DA077004F5728 /* MyList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38095B06216DA077004F5728 /* MyList.storyboard */; };
-		38095B09216DA20A004F5728 /* MyListNewItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38095B08216DA20A004F5728 /* MyListNewItem.storyboard */; };
-		38095B0B216DA235004F5728 /* MyListDetailItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38095B0A216DA235004F5728 /* MyListDetailItem.storyboard */; };
-		38095B0F216DDF2D004F5728 /* MyListPhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095B0E216DDF2D004F5728 /* MyListPhotoPickerViewController.swift */; };
-		38095B11216DE8B1004F5728 /* MyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095B10216DE8B1004F5728 /* MyListViewController.swift */; };
-		38095B13216DE8D8004F5728 /* MyListNewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095B12216DE8D8004F5728 /* MyListNewItemViewController.swift */; };
-		38095B15216DE8F3004F5728 /* MyListDetailItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095B14216DE8F3004F5728 /* MyListDetailItemViewController.swift */; };
-		3814B8C4216F0A8700F3F85F /* MyListSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3814B8C3216F0A8700F3F85F /* MyListSettingsViewController.swift */; };
-		3814B8C6216F0B1900F3F85F /* MyListSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3814B8C5216F0B1900F3F85F /* MyListSettings.storyboard */; };
-		3814B8CD216F130900F3F85F /* InspirationHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3814B8CC216F130900F3F85F /* InspirationHome.storyboard */; };
-		3814B8D3216F723100F3F85F /* InspirationLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3814B8D2216F723100F3F85F /* InspirationLayout.swift */; };
-		3814B8D5216F724C00F3F85F /* InspirationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3814B8D4216F724C00F3F85F /* InspirationCollectionViewCell.swift */; };
-		3814B8D8216F79D300F3F85F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3814B8D7216F79D300F3F85F /* Photo.swift */; };
-		382B979921703F50005A85CD /* InspirationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B979821703F50005A85CD /* InspirationSearchViewController.swift */; };
-		382B979B21703F72005A85CD /* InspirationSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382B979A21703F72005A85CD /* InspirationSearch.storyboard */; };
-		382B979D217040DC005A85CD /* MessageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B979C217040DC005A85CD /* MessageListViewController.swift */; };
-		382B979F217040FB005A85CD /* MessageSearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B979E217040FB005A85CD /* MessageSearchUserViewController.swift */; };
-		382B97A12170410D005A85CD /* MessageComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B97A02170410D005A85CD /* MessageComposeViewController.swift */; };
-		382B97A521704174005A85CD /* MessageCompose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382B97A421704174005A85CD /* MessageCompose.storyboard */; };
-		382B97A721704187005A85CD /* MessageSearchUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382B97A621704187005A85CD /* MessageSearchUser.storyboard */; };
-		382B97A9217047EA005A85CD /* InspirationHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B97A8217047EA005A85CD /* InspirationHomeViewController.swift */; };
-		38D7FB4C216FE8D7009EF877 /* InspirationItemDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D7FB4B216FE8D7009EF877 /* InspirationItemDetail.storyboard */; };
-		38D7FB4E216FE95A009EF877 /* InspirationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D7FB4D216FE95A009EF877 /* InspirationDetailViewController.swift */; };
-		38D7FB50216FEA59009EF877 /* InspirationOtherUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D7FB4F216FEA59009EF877 /* InspirationOtherUserViewController.swift */; };
-		38D7FB52216FF283009EF877 /* InspirationOtherUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D7FB51216FF283009EF877 /* InspirationOtherUser.storyboard */; };
-		38D7FB59216FF917009EF877 /* MessageList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D7FB58216FF917009EF877 /* MessageList.storyboard */; };
 		D7F70451216BE33C00E8C154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F70450216BE33C00E8C154 /* AppDelegate.swift */; };
+		D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F70452216BE33C00E8C154 /* ViewController.swift */; };
+		D7F70456216BE33C00E8C154 /* UserAuthentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F70454216BE33C00E8C154 /* UserAuthentication.storyboard */; };
 		D7F70458216BE33F00E8C154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F70457216BE33F00E8C154 /* Assets.xcassets */; };
 		D7F7045B216BE33F00E8C154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F70459216BE33F00E8C154 /* LaunchScreen.storyboard */; };
 		D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7F70484216D679A00E8C154 /* GoogleService-Info.plist */; };
@@ -81,39 +57,12 @@
 		FA2F2E4A2170516D00E64C30 /* opera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E312170516C00E64C30 /* opera.jpg */; };
 		FA2F2E4B2170516D00E64C30 /* seaplane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E322170516D00E64C30 /* seaplane.jpg */; };
 		FA2F2E4C2170516D00E64C30 /* milk_cow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E332170516D00E64C30 /* milk_cow.jpg */; };
-		FA2F2E542171427700E64C30 /* UserAuthentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F2E532171427700E64C30 /* UserAuthentication.storyboard */; };
-		FA2F2E562171429F00E64C30 /* IBDesignables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E552171429F00E64C30 /* IBDesignables.swift */; };
-		FA2F2E58217142B800E64C30 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E57217142B800E64C30 /* UserLoginViewController.swift */; };
-		FA2F2E5A217142CD00E64C30 /* UserCreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E59217142CD00E64C30 /* UserCreateAccountViewController.swift */; };
+		FA2F2E4E21705C1D00E64C30 /* DesignablesExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E4D21705C1D00E64C30 /* DesignablesExtensions.swift */; };
+		FA2F2E5021705FE100E64C30 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E4F21705FE100E64C30 /* LoginViewController.swift */; };
+		FA2F2E522170616D00E64C30 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2E512170616D00E64C30 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		38095B06216DA077004F5728 /* MyList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyList.storyboard; sourceTree = "<group>"; };
-		38095B08216DA20A004F5728 /* MyListNewItem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyListNewItem.storyboard; sourceTree = "<group>"; };
-		38095B0A216DA235004F5728 /* MyListDetailItem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyListDetailItem.storyboard; sourceTree = "<group>"; };
-		38095B0E216DDF2D004F5728 /* MyListPhotoPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListPhotoPickerViewController.swift; sourceTree = "<group>"; };
-		38095B10216DE8B1004F5728 /* MyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewController.swift; sourceTree = "<group>"; };
-		38095B12216DE8D8004F5728 /* MyListNewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListNewItemViewController.swift; sourceTree = "<group>"; };
-		38095B14216DE8F3004F5728 /* MyListDetailItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailItemViewController.swift; sourceTree = "<group>"; };
-		3814B8C3216F0A8700F3F85F /* MyListSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListSettingsViewController.swift; sourceTree = "<group>"; };
-		3814B8C5216F0B1900F3F85F /* MyListSettings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyListSettings.storyboard; sourceTree = "<group>"; };
-		3814B8CC216F130900F3F85F /* InspirationHome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InspirationHome.storyboard; sourceTree = "<group>"; };
-		3814B8D2216F723100F3F85F /* InspirationLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationLayout.swift; sourceTree = "<group>"; };
-		3814B8D4216F724C00F3F85F /* InspirationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationCollectionViewCell.swift; sourceTree = "<group>"; };
-		3814B8D7216F79D300F3F85F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
-		382B979821703F50005A85CD /* InspirationSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationSearchViewController.swift; sourceTree = "<group>"; };
-		382B979A21703F72005A85CD /* InspirationSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InspirationSearch.storyboard; sourceTree = "<group>"; };
-		382B979C217040DC005A85CD /* MessageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewController.swift; sourceTree = "<group>"; };
-		382B979E217040FB005A85CD /* MessageSearchUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSearchUserViewController.swift; sourceTree = "<group>"; };
-		382B97A02170410D005A85CD /* MessageComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageComposeViewController.swift; sourceTree = "<group>"; };
-		382B97A421704174005A85CD /* MessageCompose.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MessageCompose.storyboard; sourceTree = "<group>"; };
-		382B97A621704187005A85CD /* MessageSearchUser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MessageSearchUser.storyboard; sourceTree = "<group>"; };
-		382B97A8217047EA005A85CD /* InspirationHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationHomeViewController.swift; sourceTree = "<group>"; };
-		38D7FB4B216FE8D7009EF877 /* InspirationItemDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InspirationItemDetail.storyboard; sourceTree = "<group>"; };
-		38D7FB4D216FE95A009EF877 /* InspirationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationDetailViewController.swift; sourceTree = "<group>"; };
-		38D7FB4F216FEA59009EF877 /* InspirationOtherUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationOtherUserViewController.swift; sourceTree = "<group>"; };
-		38D7FB51216FF283009EF877 /* InspirationOtherUser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InspirationOtherUser.storyboard; sourceTree = "<group>"; };
-		38D7FB58216FF917009EF877 /* MessageList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MessageList.storyboard; sourceTree = "<group>"; };
 		3C1707F4BCBB8E7035940B7E /* Pods-BuckIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuckIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuckIt/Pods-BuckIt.release.xcconfig"; sourceTree = "<group>"; };
 		8A0BEB9F2AA7B4A25DE140AF /* Pods_BuckIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuckIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCA7A71EE63D99855D06162 /* Pods-BuckIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuckIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuckIt/Pods-BuckIt.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +70,8 @@
 		D7A76490216EA0FC00683B46 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		D7F7044D216BE33C00E8C154 /* BuckIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F70450216BE33C00E8C154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7F70452216BE33C00E8C154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7F70455216BE33C00E8C154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserAuthentication.storyboard; sourceTree = "<group>"; };
 		D7F70457216BE33F00E8C154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F7045A216BE33F00E8C154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F7045C216BE33F00E8C154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -166,10 +117,9 @@
 		FA2F2E312170516C00E64C30 /* opera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = opera.jpg; sourceTree = "<group>"; };
 		FA2F2E322170516D00E64C30 /* seaplane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seaplane.jpg; sourceTree = "<group>"; };
 		FA2F2E332170516D00E64C30 /* milk_cow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = milk_cow.jpg; sourceTree = "<group>"; };
-		FA2F2E532171427700E64C30 /* UserAuthentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserAuthentication.storyboard; sourceTree = "<group>"; };
-		FA2F2E552171429F00E64C30 /* IBDesignables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignables.swift; sourceTree = "<group>"; };
-		FA2F2E57217142B800E64C30 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
-		FA2F2E59217142CD00E64C30 /* UserCreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreateAccountViewController.swift; sourceTree = "<group>"; };
+		FA2F2E4D21705C1D00E64C30 /* DesignablesExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignablesExtensions.swift; sourceTree = "<group>"; };
+		FA2F2E4F21705FE100E64C30 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA2F2E512170616D00E64C30 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,125 +134,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38095B05216D9CED004F5728 /* MyListTab */ = {
-			isa = PBXGroup;
-			children = (
-				38095B0D216DDF06004F5728 /* ViewControllers */,
-				38095B0C216DDEED004F5728 /* Storyboards */,
-			);
-			path = MyListTab;
-			sourceTree = "<group>";
-		};
-		38095B0C216DDEED004F5728 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				38095B06216DA077004F5728 /* MyList.storyboard */,
-				38095B08216DA20A004F5728 /* MyListNewItem.storyboard */,
-				38095B0A216DA235004F5728 /* MyListDetailItem.storyboard */,
-				3814B8C5216F0B1900F3F85F /* MyListSettings.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		38095B0D216DDF06004F5728 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				38095B10216DE8B1004F5728 /* MyListViewController.swift */,
-				38095B12216DE8D8004F5728 /* MyListNewItemViewController.swift */,
-				38095B14216DE8F3004F5728 /* MyListDetailItemViewController.swift */,
-				3814B8C3216F0A8700F3F85F /* MyListSettingsViewController.swift */,
-				38095B0E216DDF2D004F5728 /* MyListPhotoPickerViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		3814B8C7216F118B00F3F85F /* InspirationTab */ = {
-			isa = PBXGroup;
-			children = (
-				3814B8C8216F119F00F3F85F /* ViewControllers */,
-				3814B8D6216F79B500F3F85F /* Model */,
-				3814B8CE216F709A00F3F85F /* Views */,
-				3814B8D1216F71D800F3F85F /* Layout */,
-				3814B8C9216F11AB00F3F85F /* Storyboards */,
-			);
-			path = InspirationTab;
-			sourceTree = "<group>";
-		};
-		3814B8C8216F119F00F3F85F /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				382B97A8217047EA005A85CD /* InspirationHomeViewController.swift */,
-				38D7FB4D216FE95A009EF877 /* InspirationDetailViewController.swift */,
-				38D7FB4F216FEA59009EF877 /* InspirationOtherUserViewController.swift */,
-				382B979821703F50005A85CD /* InspirationSearchViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		3814B8C9216F11AB00F3F85F /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				3814B8CC216F130900F3F85F /* InspirationHome.storyboard */,
-				38D7FB4B216FE8D7009EF877 /* InspirationItemDetail.storyboard */,
-				382B979A21703F72005A85CD /* InspirationSearch.storyboard */,
-				38D7FB51216FF283009EF877 /* InspirationOtherUser.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		3814B8CE216F709A00F3F85F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3814B8D4216F724C00F3F85F /* InspirationCollectionViewCell.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3814B8D1216F71D800F3F85F /* Layout */ = {
-			isa = PBXGroup;
-			children = (
-				3814B8D2216F723100F3F85F /* InspirationLayout.swift */,
-			);
-			path = Layout;
-			sourceTree = "<group>";
-		};
-		3814B8D6216F79B500F3F85F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3814B8D7216F79D300F3F85F /* Photo.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		38D7FB53216FF5CE009EF877 /* ConnectTab */ = {
-			isa = PBXGroup;
-			children = (
-				38D7FB55216FF5F9009EF877 /* ViewControllers */,
-				38D7FB54216FF5ED009EF877 /* Storyboards */,
-			);
-			path = ConnectTab;
-			sourceTree = "<group>";
-		};
-		38D7FB54216FF5ED009EF877 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				38D7FB58216FF917009EF877 /* MessageList.storyboard */,
-				382B97A621704187005A85CD /* MessageSearchUser.storyboard */,
-				382B97A421704174005A85CD /* MessageCompose.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		38D7FB55216FF5F9009EF877 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				382B979C217040DC005A85CD /* MessageListViewController.swift */,
-				382B979E217040FB005A85CD /* MessageSearchUserViewController.swift */,
-				382B97A02170410D005A85CD /* MessageComposeViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		A525F05F91EB46E32C8179CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,9 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				FA2F2DFB217050B200E64C30 /* Model Files */,
-				38095B05216D9CED004F5728 /* MyListTab */,
-				3814B8C7216F118B00F3F85F /* InspirationTab */,
-				38D7FB53216FF5CE009EF877 /* ConnectTab */,
 				D7F70487216D67B900E8C154 /* Sources */,
 				D7F70486216D67AA00E8C154 /* Resources */,
 			);
@@ -368,10 +196,11 @@
 			children = (
 				D7F70450216BE33C00E8C154 /* AppDelegate.swift */,
 				D7F7048B216D7CE200E8C154 /* Networking */,
-				FA2F2E532171427700E64C30 /* UserAuthentication.storyboard */,
-				FA2F2E552171429F00E64C30 /* IBDesignables.swift */,
-				FA2F2E57217142B800E64C30 /* UserLoginViewController.swift */,
-				FA2F2E59217142CD00E64C30 /* UserCreateAccountViewController.swift */,
+				D7F70452216BE33C00E8C154 /* ViewController.swift */,
+				D7F70454216BE33C00E8C154 /* UserAuthentication.storyboard */,
+				FA2F2E4F21705FE100E64C30 /* LoginViewController.swift */,
+				FA2F2E512170616D00E64C30 /* CreateAccountViewController.swift */,
+				FA2F2E4D21705C1D00E64C30 /* DesignablesExtensions.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -393,11 +222,11 @@
 				FA2F2E012170510600E64C30 /* BucketList.swift */,
 				FA2F2DFE2170510500E64C30 /* BucketListItem.swift */,
 				FA2F2E042170510600E64C30 /* BucketListItemComment.swift */,
-				FA2F2DFF2170510500E64C30 /* User.swift */,
-				FA2F2E032170510600E64C30 /* Message.swift */,
 				FA2F2DFD2170510500E64C30 /* guatambuToDo.swift */,
+				FA2F2E032170510600E64C30 /* Message.swift */,
 				FA2F2E022170510600E64C30 /* MockDataBucketListItems.swift */,
 				FA2F2E002170510500E64C30 /* MockDataUsers.swift */,
+				FA2F2DFF2170510500E64C30 /* User.swift */,
 			);
 			name = "Model Files";
 			path = "New Group";
@@ -535,16 +364,7 @@
 				D7F70458216BE33F00E8C154 /* Assets.xcassets in Resources */,
 				FA2F2E492170516D00E64C30 /* color_run.jpg in Resources */,
 				FA2F2E382170516D00E64C30 /* kids_book.jpg in Resources */,
-<<<<<<< HEAD
-=======
-				38095B09216DA20A004F5728 /* MyListNewItem.storyboard in Resources */,
-				3814B8C6216F0B1900F3F85F /* MyListSettings.storyboard in Resources */,
-				38095B0B216DA235004F5728 /* MyListDetailItem.storyboard in Resources */,
-				38095B07216DA077004F5728 /* MyList.storyboard in Resources */,
-				38D7FB4C216FE8D7009EF877 /* InspirationItemDetail.storyboard in Resources */,
-				3814B8CD216F130900F3F85F /* InspirationHome.storyboard in Resources */,
-				D7F70456216BE33C00E8C154 /* Main.storyboard in Resources */,
->>>>>>> e358000f95cfb5719851f679d53c7ef82b76554f
+				D7F70456216BE33C00E8C154 /* UserAuthentication.storyboard in Resources */,
 				FA2F2E4B2170516D00E64C30 /* seaplane.jpg in Resources */,
 				FA2F2E402170516D00E64C30 /* molecular_gastronomy.jpg in Resources */,
 				FA2F2E3F2170516D00E64C30 /* trapeze.jpg in Resources */,
@@ -553,12 +373,7 @@
 				FA2F2E192170513700E64C30 /* rodrigo.jpg in Resources */,
 				FA2F2E152170513700E64C30 /* luisa.jpg in Resources */,
 				FA2F2E3A2170516D00E64C30 /* meet_leader.jpg in Resources */,
-				FA2F2E542171427700E64C30 /* UserAuthentication.storyboard in Resources */,
 				FA2F2E182170513700E64C30 /* dylon.jpg in Resources */,
-				382B97A521704174005A85CD /* MessageCompose.storyboard in Resources */,
-				38D7FB52216FF283009EF877 /* InspirationOtherUser.storyboard in Resources */,
-				382B97A721704187005A85CD /* MessageSearchUser.storyboard in Resources */,
-				38D7FB59216FF917009EF877 /* MessageList.storyboard in Resources */,
 				D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */,
 				FA2F2E352170516D00E64C30 /* message_bottle.jpg in Resources */,
 				FA2F2E462170516D00E64C30 /* sleep_yurt.jpg in Resources */,
@@ -567,7 +382,6 @@
 				FA2F2E4C2170516D00E64C30 /* milk_cow.jpg in Resources */,
 				FA2F2E4A2170516D00E64C30 /* opera.jpg in Resources */,
 				FA2F2E412170516D00E64C30 /* hang_glide.jpg in Resources */,
-				382B979B21703F72005A85CD /* InspirationSearch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,44 +457,31 @@
 				D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */,
 				FA2F2E082170510600E64C30 /* MockDataUsers.swift in Sources */,
 				D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */,
-<<<<<<< HEAD
-				FA2F2E58217142B800E64C30 /* UserLoginViewController.swift in Sources */,
-				FA2F2E562171429F00E64C30 /* IBDesignables.swift in Sources */,
-=======
-				38095B15216DE8F3004F5728 /* MyListDetailItemViewController.swift in Sources */,
-				382B97A12170410D005A85CD /* MessageComposeViewController.swift in Sources */,
-				382B979D217040DC005A85CD /* MessageListViewController.swift in Sources */,
-				38095B13216DE8D8004F5728 /* MyListNewItemViewController.swift in Sources */,
-				3814B8D3216F723100F3F85F /* InspirationLayout.swift in Sources */,
-				382B97A9217047EA005A85CD /* InspirationHomeViewController.swift in Sources */,
 				D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */,
->>>>>>> e358000f95cfb5719851f679d53c7ef82b76554f
+				FA2F2E522170616D00E64C30 /* CreateAccountViewController.swift in Sources */,
 				D7F7048F216D811100E8C154 /* AuthManager.swift in Sources */,
 				FA2F2E072170510600E64C30 /* User.swift in Sources */,
 				D7F7048D216D7D2500E8C154 /* Endpoint.swift in Sources */,
+				FA2F2E4E21705C1D00E64C30 /* DesignablesExtensions.swift in Sources */,
 				FA2F2E0B2170510600E64C30 /* Message.swift in Sources */,
+				FA2F2E5021705FE100E64C30 /* LoginViewController.swift in Sources */,
 				FA2F2E052170510600E64C30 /* guatambuToDo.swift in Sources */,
 				FA2F2E092170510600E64C30 /* BucketList.swift in Sources */,
 				D7F70451216BE33C00E8C154 /* AppDelegate.swift in Sources */,
-<<<<<<< HEAD
-				FA2F2E5A217142CD00E64C30 /* UserCreateAccountViewController.swift in Sources */,
-=======
-				382B979921703F50005A85CD /* InspirationSearchViewController.swift in Sources */,
-				3814B8D5216F724C00F3F85F /* InspirationCollectionViewCell.swift in Sources */,
-				38D7FB50216FEA59009EF877 /* InspirationOtherUserViewController.swift in Sources */,
-				382B979F217040FB005A85CD /* MessageSearchUserViewController.swift in Sources */,
-				38D7FB4E216FE95A009EF877 /* InspirationDetailViewController.swift in Sources */,
-				38095B11216DE8B1004F5728 /* MyListViewController.swift in Sources */,
-				3814B8D8216F79D300F3F85F /* Photo.swift in Sources */,
-				3814B8C4216F0A8700F3F85F /* MyListSettingsViewController.swift in Sources */,
-				38095B0F216DDF2D004F5728 /* MyListPhotoPickerViewController.swift in Sources */,
->>>>>>> e358000f95cfb5719851f679d53c7ef82b76554f
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D7F70454216BE33C00E8C154 /* UserAuthentication.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F70455216BE33C00E8C154 /* Base */,
+			);
+			name = UserAuthentication.storyboard;
+			sourceTree = "<group>";
+		};
 		D7F70459216BE33F00E8C154 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -813,7 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S2V96BB45E;
+				DEVELOPMENT_TEAM = K2R548H5LT;
 				INFOPLIST_FILE = "$(SRCROOT)/BuckIt/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -830,7 +631,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S2V96BB45E;
+				DEVELOPMENT_TEAM = K2R548H5LT;
 				INFOPLIST_FILE = "$(SRCROOT)/BuckIt/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
