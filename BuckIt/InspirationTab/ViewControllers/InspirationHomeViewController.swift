@@ -10,6 +10,11 @@ import UIKit
 
 class InspirationHomeViewController: UIViewController {
 
+    // MARK: - Outlets
+    @IBOutlet weak var inspirationSearchBar: UISearchBar!
+    
+    
+    // MARK: - Lifecycle Functions
     override func viewDidLoad() {
         super.viewDidLoad()
 

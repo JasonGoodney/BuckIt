@@ -10,5 +10,9 @@ import UIKit
 
 class InspirationCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var containerView: UIView!
+    @IBOutlet weak var inspirationImageView: UIImageView!
+    @IBOutlet weak var itemTitleLabel: UILabel!
+    
+    @IBAction func quickAddButtonTapped(_ sender: UIButton) {
+    }
 }

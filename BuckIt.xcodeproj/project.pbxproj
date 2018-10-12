@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A7648E216E64CB00683B46 /* DatabaseManager.swift */; };
-		D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A76490216EA0FC00683B46 /* StorageManager.swift */; };
 		38095B07216DA077004F5728 /* MyList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38095B06216DA077004F5728 /* MyList.storyboard */; };
 		38095B09216DA20A004F5728 /* MyListNewItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38095B08216DA20A004F5728 /* MyListNewItem.storyboard */; };
 		38095B0B216DA235004F5728 /* MyListDetailItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38095B0A216DA235004F5728 /* MyListDetailItem.storyboard */; };
@@ -28,13 +26,15 @@
 		382B979F217040FB005A85CD /* MessageSearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B979E217040FB005A85CD /* MessageSearchUserViewController.swift */; };
 		382B97A12170410D005A85CD /* MessageComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B97A02170410D005A85CD /* MessageComposeViewController.swift */; };
 		382B97A521704174005A85CD /* MessageCompose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382B97A421704174005A85CD /* MessageCompose.storyboard */; };
-		382B97A721704187005A85CD /* MessageSearchUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382B97A621704187005A85CD /* MessageSearchUser.storyboard */; };
+		382B97A721704187005A85CD /* MessageSearchandCompose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382B97A621704187005A85CD /* MessageSearchandCompose.storyboard */; };
 		382B97A9217047EA005A85CD /* InspirationHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B97A8217047EA005A85CD /* InspirationHomeViewController.swift */; };
 		38D7FB4C216FE8D7009EF877 /* InspirationItemDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D7FB4B216FE8D7009EF877 /* InspirationItemDetail.storyboard */; };
 		38D7FB4E216FE95A009EF877 /* InspirationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D7FB4D216FE95A009EF877 /* InspirationDetailViewController.swift */; };
 		38D7FB50216FEA59009EF877 /* InspirationOtherUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D7FB4F216FEA59009EF877 /* InspirationOtherUserViewController.swift */; };
 		38D7FB52216FF283009EF877 /* InspirationOtherUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D7FB51216FF283009EF877 /* InspirationOtherUser.storyboard */; };
 		38D7FB59216FF917009EF877 /* MessageList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D7FB58216FF917009EF877 /* MessageList.storyboard */; };
+		D7A7648F216E64CB00683B46 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A7648E216E64CB00683B46 /* DatabaseManager.swift */; };
+		D7A76491216EA0FC00683B46 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A76490216EA0FC00683B46 /* StorageManager.swift */; };
 		D7F70451216BE33C00E8C154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F70450216BE33C00E8C154 /* AppDelegate.swift */; };
 		D7F70453216BE33C00E8C154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F70452216BE33C00E8C154 /* ViewController.swift */; };
 		D7F70456216BE33C00E8C154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F70454216BE33C00E8C154 /* Main.storyboard */; };
@@ -66,7 +66,7 @@
 		382B979E217040FB005A85CD /* MessageSearchUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSearchUserViewController.swift; sourceTree = "<group>"; };
 		382B97A02170410D005A85CD /* MessageComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageComposeViewController.swift; sourceTree = "<group>"; };
 		382B97A421704174005A85CD /* MessageCompose.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MessageCompose.storyboard; sourceTree = "<group>"; };
-		382B97A621704187005A85CD /* MessageSearchUser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MessageSearchUser.storyboard; sourceTree = "<group>"; };
+		382B97A621704187005A85CD /* MessageSearchandCompose.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MessageSearchandCompose.storyboard; sourceTree = "<group>"; };
 		382B97A8217047EA005A85CD /* InspirationHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationHomeViewController.swift; sourceTree = "<group>"; };
 		38D7FB4B216FE8D7009EF877 /* InspirationItemDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InspirationItemDetail.storyboard; sourceTree = "<group>"; };
 		38D7FB4D216FE95A009EF877 /* InspirationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationDetailViewController.swift; sourceTree = "<group>"; };
@@ -151,8 +151,8 @@
 			children = (
 				382B97A8217047EA005A85CD /* InspirationHomeViewController.swift */,
 				38D7FB4D216FE95A009EF877 /* InspirationDetailViewController.swift */,
-				38D7FB4F216FEA59009EF877 /* InspirationOtherUserViewController.swift */,
 				382B979821703F50005A85CD /* InspirationSearchViewController.swift */,
+				38D7FB4F216FEA59009EF877 /* InspirationOtherUserViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				38D7FB58216FF917009EF877 /* MessageList.storyboard */,
-				382B97A621704187005A85CD /* MessageSearchUser.storyboard */,
+				382B97A621704187005A85CD /* MessageSearchandCompose.storyboard */,
 				382B97A421704174005A85CD /* MessageCompose.storyboard */,
 			);
 			path = Storyboards;
@@ -373,7 +373,7 @@
 				D7F70456216BE33C00E8C154 /* Main.storyboard in Resources */,
 				382B97A521704174005A85CD /* MessageCompose.storyboard in Resources */,
 				38D7FB52216FF283009EF877 /* InspirationOtherUser.storyboard in Resources */,
-				382B97A721704187005A85CD /* MessageSearchUser.storyboard in Resources */,
+				382B97A721704187005A85CD /* MessageSearchandCompose.storyboard in Resources */,
 				38D7FB59216FF917009EF877 /* MessageList.storyboard in Resources */,
 				D7F70485216D679A00E8C154 /* GoogleService-Info.plist in Resources */,
 				382B979B21703F72005A85CD /* InspirationSearch.storyboard in Resources */,

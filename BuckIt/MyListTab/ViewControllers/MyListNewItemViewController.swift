@@ -9,7 +9,14 @@
 import UIKit
 
 class MyListNewItemViewController: UIViewController {
-
+    
+    // MARK: - Outlets
+    @IBOutlet weak var itemNameTextField: UITextField!
+    @IBOutlet weak var addTagsTextField: UITextField!
+    @IBOutlet weak var additionalInfoTextView: UITextView!
+    
+    
+    // MARK: - Lifecycle Functions
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,8 +32,19 @@ class MyListNewItemViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    
+    // MARK: - Actions
     @IBAction func cancelButtonTapped(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func publicPrivateSwitchTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func colorPickerButtonTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func addButtonTapped(_ sender: UIButton) {
     }
 }

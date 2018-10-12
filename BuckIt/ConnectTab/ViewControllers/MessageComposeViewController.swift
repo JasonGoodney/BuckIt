@@ -27,4 +27,6 @@ class MessageComposeViewController: UIViewController {
     }
     */
 
+    @IBAction func backButtonTapped(_ sender: UIButton) {
+    }
 }

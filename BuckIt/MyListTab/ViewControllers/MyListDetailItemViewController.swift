@@ -10,6 +10,11 @@ import UIKit
 
 class MyListDetailItemViewController: UIViewController {
 
+    // MARK: - Outlets
+    @IBOutlet weak var additionalInfoTextView: UITextView!
+    
+    
+    // MARK: - Lifecycle Functions
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,4 +32,17 @@ class MyListDetailItemViewController: UIViewController {
     }
     */
 
+    
+    // MARK: - Actions
+    @IBAction func collapseButtonTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func publicPrivateSwitchButtonTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func tipsPageButtonTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func deleteButtonTapped(_ sender: UIButton) {
+    }
 }

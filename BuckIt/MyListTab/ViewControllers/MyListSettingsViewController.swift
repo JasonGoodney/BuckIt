@@ -27,7 +27,14 @@ class MyListSettingsViewController: UIViewController {
     }
     */
 
+    
     @IBAction func cancelButtonTapped(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func privacyButtonTapped(_ sender: UISwitch) {
+    }
+    
+    @IBAction func logoutButtonTapped(_ sender: UIButton) {
     }
 }

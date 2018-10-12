@@ -10,6 +10,12 @@ import UIKit
 
 class MessageSearchUserViewController: UIViewController {
 
+    // MARK: - Outlets
+    @IBOutlet weak var searchAndDisplaySearchBar: UISearchBar!
+    @IBOutlet weak var composeMessageTextView: UITextView!
+    
+    
+    // MARK: - Lifecycle Functions
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,5 +32,10 @@ class MessageSearchUserViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    
+    // MARK: - Actions
+    @IBAction func backButtonTapped(_ sender: UIButton) {
+    }
+    
 }
