@@ -9,7 +9,17 @@
 import UIKit
 
 class InspirationOtherUserViewController: UIViewController {
-
+    
+    // MARK: - Outlets
+    @IBOutlet weak var profilePicImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var ageTextField: UITextField!
+    @IBOutlet weak var hometownTextField: UITextField!
+    @IBOutlet weak var bioTextView: UITextView!
+    @IBOutlet weak var todoCompletedSegmentedControl: UISegmentedControl!
+    
+    
+    // MARK: - Lifecycle Functions
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,4 +37,14 @@ class InspirationOtherUserViewController: UIViewController {
     }
     */
 
+    
+    // MARK: - Actions
+    @IBAction func backButtonTapped(_ sender: UIBarButtonItem) {
+    }
+    
+    @IBAction func messageButtonTapped(_ sender: UIBarButtonItem) {
+    }
+    
+    @IBAction func changedSegmentedControl(_ sender: UISegmentedControl) {
+    }
 }

@@ -10,6 +10,16 @@ import UIKit
 
 class MyListViewController: UIViewController {
 
+    // MARK: - Outlets
+    @IBOutlet weak var profilePicImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var ageTextField: UITextField!
+    @IBOutlet weak var hometownTextField: UITextField!
+    @IBOutlet weak var myBioTextView: UITextView!
+    @IBOutlet weak var todoCompletedSegmentedControl: UISegmentedControl!
+    
+    
+    // MARK: - Lifecycle Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,4 +41,11 @@ class MyListViewController: UIViewController {
     }
     */
     
+    
+    // MARK: - Actions
+    @IBAction func settingsButtonTapped(_ sender: UIBarButtonItem) {
+    }
+    
+    @IBAction func changedSegmentController(_ sender: UISegmentedControl) {
+    }
 }

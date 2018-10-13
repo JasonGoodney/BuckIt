@@ -27,4 +27,6 @@ class MessageListViewController: UIViewController {
     }
     */
 
+    @IBAction func newMessageButtonTapped(_ sender: UIButton) {
+    }
 }
