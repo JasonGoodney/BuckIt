@@ -13,7 +13,7 @@
         <!--Connect Home-->
         <scene sceneID="IFj-PK-yIu">
             <objects>
-                <viewController id="5AT-zJ-UD2" userLabel="Connect Home" customClass="MessageListViewController" customModule="BuckIt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MessageList" id="5AT-zJ-UD2" userLabel="Connect Home" customClass="MessageListViewController" customModule="BuckIt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4nJ-ig-CcF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="725.60000000000002" y="1354.2728635682161"/>
         </scene>
-        <!--MessageSearchUser-->
+        <!--MessageSearchandCompose-->
         <scene sceneID="lPs-L7-Yv7">
             <objects>
-                <viewControllerPlaceholder storyboardName="MessageSearchUser" id="cov-fT-C3e" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="MessageSearchUser" storyboardName="MessageSearchandCompose" referencedIdentifier="MessageSearchandCompose" id="cov-fT-C3e" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q2c-wM-HDz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1504.8" y="1356.9715142428786"/>

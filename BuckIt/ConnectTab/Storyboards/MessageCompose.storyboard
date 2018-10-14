@@ -13,7 +13,7 @@
         <!--Connect Compose->Write-->
         <scene sceneID="MzL-mx-2Gs">
             <objects>
-                <viewController id="awJ-iw-Wo5" userLabel="Connect Compose-&gt;Write" customClass="MessageComposeViewController" customModule="BuckIt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MessageCompose" id="awJ-iw-Wo5" userLabel="Connect Compose-&gt;Write" customClass="MessageComposeViewController" customModule="BuckIt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Rb-N0-UUR" userLabel="Connect New Message Compose View">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -13,7 +13,7 @@
         <!--Connect Compose->Search-->
         <scene sceneID="8He-5k-DoJ">
             <objects>
-                <viewController id="153-i0-N7T" userLabel="Connect Compose-&gt;Search" customClass="MessageSearchUserViewController" customModule="BuckIt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MessageSearchandCompose" id="153-i0-N7T" userLabel="Connect Compose-&gt;Search" customClass="MessageSearchUserViewController" customModule="BuckIt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DRU-ps-Tr6" userLabel="Connect New Message Search View">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,6 +73,7 @@
                         <outlet property="composeMessageTextView" destination="DxL-nH-Qvp" id="upI-qM-qoN"/>
                         <outlet property="searchAndDisplaySearchBar" destination="Jvh-f9-9CW" id="bqD-4h-FZ4"/>
                         <outlet property="searchDisplayController" destination="1Md-On-tB5" id="GBZ-1x-Vfw"/>
+                        <segue destination="jIw-R3-dZp" kind="show" id="Ufp-Cc-C2D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fnY-hG-Qiu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -91,7 +92,7 @@
         <!--MessageCompose-->
         <scene sceneID="TeC-cd-gv9">
             <objects>
-                <viewControllerPlaceholder storyboardName="MessageCompose" id="jIw-R3-dZp" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="MessageCompose" referencedIdentifier="MessageCompose" id="jIw-R3-dZp" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDG-2K-7Fh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2343.1999999999998" y="1356.9715142428786"/>
