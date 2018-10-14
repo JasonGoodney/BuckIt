@@ -9,6 +9,20 @@
 import UIKit
 
 class UserCreateAccountViewController: UIViewController {
+    
+    // MARK: - Properties
+    
+    @IBOutlet weak var createAccountLabelOutlet: UILabel!
+    @IBOutlet weak var emailLabelOutlet: UILabel!
+    @IBOutlet weak var emailTextFieldOutlet: UITextField!
+    @IBOutlet weak var usernameLabelOutlet: UILabel!
+    @IBOutlet weak var usernameTextFieldOutlet: UITextField!
+    @IBOutlet weak var passwordLabelOutlet: UILabel!
+    @IBOutlet weak var passwordTextFieldOutlet: UITextField!
+    
+    
+    
+    // MARK: ViewController Lifecycle Functions
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +30,19 @@ class UserCreateAccountViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
+    // MARK: - Actions
+    
+    @IBAction func closeXButtonTapped(_ sender: Any) {
+    }
+    
+    @IBAction func createAccountButtonTapped(_ sender: Any) {
+    }
+    
+    @IBAction func loginButtonTapped(_ sender: UIButton) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 
